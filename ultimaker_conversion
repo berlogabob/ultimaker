@@ -1,0 +1,11 @@
+import math
+
+message = "Lenght of filament?"
+p = math.pi
+d = 2.85
+r = d/2
+
+h = float(input(message))
+
+v = p * r**2 * h
+print(v)
